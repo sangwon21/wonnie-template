@@ -1,0 +1,23 @@
+{
+  "name": "wonnie-template",
+  "version": "1.0.0",
+  "description": "Convenient Way to Template HTML",
+  "keywords": [
+    "HTML",
+    "templating"
+  ],
+  "main": "template.js",
+  "author": {
+    "name": "Sangwon Lee",
+    "email": "junothyme@gmail.com"
+  },
+  "engines": {
+    "node": ">= 12.16.1"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ]
+}
