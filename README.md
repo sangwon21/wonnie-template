@@ -6,7 +6,7 @@ Get start with convenient way of HTML templating.
 
 ## Installation
 
-'npm i wonnie-template'
+`npm i wonnie-template`
 
 ## Example
 
