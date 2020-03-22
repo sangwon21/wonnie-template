@@ -6,7 +6,6 @@ const template = tagName => (props = {}) => (children = []) => {
     props,
     children
   };
-  console.log("node is ", node);
   return createElement(node);
 };
 
