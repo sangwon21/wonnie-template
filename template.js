@@ -49,6 +49,7 @@ const label = template("label");
 const select = template("select");
 const textarea = template("textarea");
 const option = template("option");
+const canvas = template("canvas");
 
 module.exports = {
   h1,
@@ -85,5 +86,6 @@ module.exports = {
   label,
   select,
   textarea,
-  option
+  option,
+  canvas
 };
