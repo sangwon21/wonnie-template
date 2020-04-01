@@ -87,5 +87,6 @@ module.exports = {
   select,
   textarea,
   option,
-  canvas
+  canvas,
+  template
 };
