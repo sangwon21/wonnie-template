@@ -1,10 +1,16 @@
-const createElement = node => {
+import { Node } from "./node";
+
+const createElement = (node: string | number | Node) => {
   if (node instanceof Element) {
     return node;
   }
 
-  if (typeof node === "string" || typeof node === "number") {
+  if (typeof node === "string") {
     return document.createTextNode(node);
+  }
+
+  if (typeof node === "number") {
+    return document.createTextNode(`${node}`);
   }
 
   const element = document.createElement(node.tagName);
@@ -25,4 +31,4 @@ const createElement = node => {
   return element;
 };
 
-module.exports = createElement;
+export default createElement;

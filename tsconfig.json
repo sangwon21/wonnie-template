@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["ES2017", "DOM"],
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./dist",
+    "strict": true
+  },
+  "include": ["**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts", "./dist/**/*"]
+}
