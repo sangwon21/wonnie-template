@@ -1,7 +1,11 @@
 import { Node } from "./node";
 
-const createElement = (node: string | number | Node) => {
+const createElement = (node: string | number | Node | Element | Text) => {
   if (node instanceof Element) {
+    return node;
+  }
+
+  if (node instanceof Text) {
     return node;
   }
 

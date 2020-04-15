@@ -1,8 +1,8 @@
 import createElement from "./createElement";
 import { Node } from "./node";
 
-const template = (tagName: string) => (props: Object = {}) => (
-  children: Array<Node | string | number> = []
+export const template = (tagName: string) => (props: Object = {}) => (
+  children: Array<Node | Element | Text | string | number> = []
 ) => {
   const node: Node = {
     tagName,

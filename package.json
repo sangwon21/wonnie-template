@@ -1,19 +1,19 @@
 {
   "name": "wonnie-template",
-  "version": "1.2.3",
+  "version": "1.2.8",
   "description": "Convenient Way to Template HTML",
   "keywords": [
     "HTML",
     "templating"
   ],
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "author": {
     "name": "Sangwon Lee",
     "email": "junothyme@gmail.com"
   },
   "scripts": {
-    "prepublish": "tsc"
+    "build": "tsc"
   },
   "engines": {
     "node": ">= 12.16.1"
@@ -26,8 +26,5 @@
   ],
   "devDependencies": {
     "typescript": "^3.8.3"
-  },
-  "dependencies": {
-    "@types/node": "^13.11.0"
   }
 }
