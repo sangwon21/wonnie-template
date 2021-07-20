@@ -1,17 +1,25 @@
 {
   "name": "wonnie-template",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "description": "Convenient Way to Template HTML",
   "keywords": [
     "HTML",
     "templating"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sangwon21/wonnie-template.git"
+  },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "author": {
     "name": "Sangwon Lee",
     "email": "junothyme@gmail.com"
   },
+  "bugs": {
+    "url": "https://github.com/sangwon21/wonnie-template/issues"
+},
+"homepage": "https://github.com/sangwon21/wonnie-template#readme",
   "scripts": {
     "build": "tsc"
   },
